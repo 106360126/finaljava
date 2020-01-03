@@ -6,4 +6,28 @@
     android:layout_height="match_parent"
     tools:context=".Main3Activity">
 
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#A21212"
+        android:orientation="vertical"
+        android:padding="25dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-29dp" >
+
+        <Button
+            android:id="@+id/button000"
+            android:layout_width="379dp"
+            android:layout_height="571dp"
+            android:background="#00000000" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="347dp"
+            android:layout_height="564dp"
+            app:srcCompat="@drawable/rat" />
+
+    </RelativeLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
